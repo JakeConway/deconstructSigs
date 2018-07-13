@@ -139,7 +139,7 @@ whichSignatures = function(tumor.ref = NA,
   w               <- weights*10
   
   error_diff      <- Inf
-  error_threshold <- 1e-3
+  error_threshold <- 1e-2
   
   num <- 0
   while(error_diff > error_threshold){
